@@ -1,3 +1,55 @@
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+
 .navbar-header img {
-  height: 30px;
+  height: 25px;
+  margin-right: 50px;
+}
+
+nav {
+  padding: 15px 0;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #000;
+  font-weight: bold;
+}
+
+ul.navbar-right li a.btn {
+  color: #006aff;
+  border-color: #006aff;
+  padding: 7px;
+  margin-top: 7px;
+}
+
+.jumbotron {
+  background-image: url(../img/bg-sea.svg);
+  color: #FFF;
+  padding-top: 130px;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+    .navbar-header {
+    width: 100%;
+  }
+    .navbar-toggle {
+    display: block;
+  }
+    .navbar-nav, .navbar-right {
+    display: none;
+  }
 }
