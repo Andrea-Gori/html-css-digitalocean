@@ -29,11 +29,73 @@ ul.navbar-right li a.btn {
   color: #FFF;
   padding-top: 130px;
   font-weight: bold;
+  margin: 0;
 }
 
 .jumbotron p {
   font-size: 24px;
   font-weight: bold;
+}
+
+.bg-white {
+  background-color: #FFF;
+  color: #000;
+  font-size: 30px;
+  border-radius: 5px;
+  padding: 20px 8px;
+}
+
+.bg-white h3 , .bg-white p {
+  font-weight: bolder;
+}
+
+.bg-white h3 span {
+  color: #006aff
+}
+
+.my-btn {
+  background-color: #006aff;
+  color: #FFF;
+  width: 100%;
+}
+
+a.google-btn {
+  color: #bbbbbb;
+  font-weight: bolder;
+  width: 100%;
+  box-shadow: 4px 3px 4px -1px rgba(0, 0, 0, 0.42);
+  position: relative;
+}
+
+a.google-btn img {
+  height: 25px;
+  width: 33px;
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translate(0, -50%);
+}
+
+#terms-of-service {
+  font-size: 10px;
+  color: #000;
+  margin-top: 15px;
+}
+
+.logos {
+  background-color: #f3f5f9;
+  padding: 50px 0 ;
+}
+
+h6 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.logos div.icon-link {
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 15px;
 }
 
 
