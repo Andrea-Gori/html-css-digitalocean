@@ -82,7 +82,7 @@ a.google-btn img {
   margin-top: 15px;
 }
 
-.logos {
+.logos , .designed {
   background-color: #f3f5f9;
   padding: 50px 0 ;
 }
@@ -96,6 +96,55 @@ h6 {
   font-size: 18px;
   font-weight: bold;
   padding-top: 15px;
+}
+
+.deploy-and-scale {
+  padding: 50px 0;
+}
+
+.deploy-and-scale h2 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.deploy-and-scale p {
+  font-size: 20px;
+  width: 91%;
+  margin: 0 auto 70px;
+}
+
+.deploy-and-scale ul{
+  margin: 0;
+  padding-left: 50px;
+}
+
+.deploy-and-scale ul li {
+  list-style: none;
+  border-left: 2px solid #838ca4;
+  padding: 10px 0;
+  width: 50%;
+}
+
+.btn-menu {
+  text-decoration: none;
+  font-size: 16px;
+  color: rgb(3, 27, 78);
+}
+
+.mt-1{
+  margin-top: 20px;
+}
+
+.deploy-and-scale h5 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.deploy-and-scale h5 + p {
+  color: #5b6987;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
 }
 
 
