@@ -95,6 +95,10 @@ h6 {
   font-weight: bold;
 }
 
+.logos img {
+  max-width: 100%;
+}
+
 .logos div.icon-link {
   font-size: 18px;
   font-weight: bold;
@@ -129,6 +133,12 @@ h6 {
   padding: 10px 0;
   width: 50%;
 }
+
+.deploy-and-scale ul li:hover a{
+  text-decoration: none;
+}
+
+
 
 .btn-menu {
   text-decoration: none;
@@ -193,14 +203,14 @@ h6 {
   padding-left: 15px;
 }
 
-.customers {
+.customers , .start {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: #002ca8;
   color: #FFF;
 }
 
-.customers h2 {
+.customers h2 , .start h2{
   font-size: 36px;
   font-weight: bold;
 }
@@ -234,6 +244,7 @@ h6 {
   margin: 0 auto;
   display: inline-block;
   padding: 80px 20px;
+  vertical-align: middle;
 }
 
 .bg-white-2 img {
@@ -253,6 +264,50 @@ h6 {
   font-size: 14px;
 }
 
+.white-btn {
+  background-color: #FFF;
+  color: #002ca8;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 15px;
+  padding: 20px 20px;
+}
+
+.footer-lists {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #031c4e;
+  color: #FFF;
+}
+
+.footer-lists ul {
+  padding-left: 0;
+}
+
+.footer-lists ul li {
+  list-style: none;
+  color: #9ca4b6;
+  padding: 5px 0;
+  font-size: 15px;
+}
+
+.footer-lists ul li b {
+  color: #FFF;
+}
+
+.social-list li {
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.social-list li a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+.footer-lists ul li a i {
+  font-size: 20px;
+}
 
 
 
